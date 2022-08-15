@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tutorial 2</title>
+    </head>
+    <body>
+        
+        <center>
+        <form action="">
+            
+        <h2>Delivery Details</h2>
+        <hr>
+        <label>First Name:</label>
+        <input type="text" name="fname" id="fname"><br><br>
+        <label>Last Name:</label>
+        <input type="text" name="lname" id="lname"><br><br>
+        <label >Address</label> <br><br>
+    
+        <input type="text" name="street" id="street" placeholder="Street"><br><br>
+        <input type="text" name="city" id="city" placeholder="City"><br><br>
+        <input type="text" name="pincode" id="pincode" placeholder="Pincode"> <br> <br>
+    
+        <label>Delivery Method</label> <br><br>
+    
+        <input type="radio" name="delivery" value="HTML">
+        <label for="html">Home Delivery</label><br>
+        <input type="radio" id="css" name="delivery"  value="CSS">
+        <label for="css">Select from Nearby Store</label><br><br>
+    
+        <label>Additional Information for Delivery Agent</label><br><br>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+        </textarea>
+        <br><br>
+        <label for="furniture">Choose furniture to be delivered:</label>
+    
+        <select name="cars" id="cars">
+        <option value="table">Table</option>
+        <option value="armchair">Arm Chair</option>
+        <option value="doublebed">Double Bed</option>
+        <option value="couch">Couch</option>
+        </select>
+        <br><br>
+        <label for="deliverytype">Choose your browser from the list:</label>
+        <br>
+        <input list="deliverytype" name="deliverytype" id="deliverytype">
+        
+        <datalist id="deliverytype">
+          <option value="Normal">
+          <option value="Two Day">
+          <option value="One Day">
+        </datalist>
+        <br><br>
+    </datalist>
+    <button type="submit" >Submit</button>
+    </form>
+
+
+    </center>
+
+
+</body>
+</html>
